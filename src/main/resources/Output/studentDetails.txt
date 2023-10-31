@@ -1,0 +1,2 @@
+{eId:rollNo,eName:name,eSalary:age
+1}

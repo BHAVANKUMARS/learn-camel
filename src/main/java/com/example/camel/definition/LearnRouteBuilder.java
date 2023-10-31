@@ -13,6 +13,15 @@ public class LearnRouteBuilder {
 
     from - specify the route (consume the data ... file path,end point,timer)
 
+    three part
+    EndPoint from("file:F://data?noop=true")
+
+    file - component
+
+    F://data - context path
+
+    noop=true - additional option
+
     to   - specify the route(send the data.....file path,end point,timer)
 
     log  - log the data

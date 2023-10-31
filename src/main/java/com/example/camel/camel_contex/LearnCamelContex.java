@@ -1,5 +1,6 @@
-package com.example.camel;
+package com.example.camel.camel_contex;
 
+import com.example.camel.Demo;
 import org.apache.camel.*;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.impl.DefaultCamelContext;

@@ -4,8 +4,12 @@ public class LearnCamel {
 
     /*
 
+    In Camel Everything is a route, it support multiple camel routes
+
 
     Apache Camel ia a Open source framework and easily integrate various system consuming or producing data.
+
+    Camel is light weight and easily configurable
 
     it can connect/communicate with multiple components easily (ActiveMQ,Kafka,Rabbitmq)
 

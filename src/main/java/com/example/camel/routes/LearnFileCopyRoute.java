@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 
 import java.util.StringTokenizer;
 
-@Component
-public class LearnFileRoute extends RouteBuilder {
+//@Component
+public class LearnFileCopyRoute extends RouteBuilder {
 
     //using file component(mention the source and destination path in file Component ) transfer/copy the file from source to destination
     //source file are once sent to destination
@@ -65,7 +65,7 @@ public class LearnFileRoute extends RouteBuilder {
 
 //        .to("file://C:\\Users\\Appu\\Downloads\\learn-camel (1)\\learn-camel\\src\\main\\resources\\Output");
                 //need to modify the fileName or extension
-        .to("file://C:\\Users\\Appu\\Downloads\\learn-camel (1)\\learn-camel\\src\\main\\resources\\Output?");
+        .to("file://C:\\Users\\Appu\\Downloads\\learn-camel (1)\\learn-camel\\src\\main\\resources\\Output");
 
     }
 }
